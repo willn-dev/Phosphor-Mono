@@ -8,6 +8,20 @@ body {
 	--toggle-radius: 0px;
 	--toggle-thumb-radius: 0px;
 	--slider-thumb-radius: 0px;
+	
+
+
+
+	/* START MY EDIT*/
+	--background-primary: #1e3a29;
+	--text-normal: #eeffcc;
+
+	--h1-color: #bedc7f;
+
+	/* FIND PALLETTE CALLED DULL AQUATIC IN BOOKMARKS IM SHIFTING TO THAT*/
+
+	--blockquote-background-color: #4d8061;
+	--blockquote-border-color: #bedc7f;
 }
 
 .workspace-tab-header.is-active::before, .workspace-tab-header.is-active::after {

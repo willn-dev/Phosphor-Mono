@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&display=swap');
+
 body {
 	--radius-s: 0px;
 	--radius-m: 0px;
@@ -18,10 +20,13 @@ body {
 
 	--h1-color: #bedc7f;
 
-	/* FIND PALLETTE CALLED DULL AQUATIC IN BOOKMARKS IM SHIFTING TO THAT*/
+	--background-modifier-border: #000000;
 
 	--blockquote-background-color: #4d8061;
 	--blockquote-border-color: #bedc7f;
+
+	--font-text-theme: 'Jersey 10', monospace;
+
 }
 
 .workspace-tab-header.is-active::before, .workspace-tab-header.is-active::after {

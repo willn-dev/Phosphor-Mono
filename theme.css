@@ -31,12 +31,21 @@ body {
 
 	/* TOP TABS AND MENU*/
 
-	--tab-radius: 
+	--tab-radius-active: 6px;
+	--tab-outline-width: 2px;
 
 
 
+	/*md formatting*/
 
-
+	--checkbox-border-color: #eeffcc;
+	--checkbox-border-color-hover: #bedc7f;
+	--checkbox-color: #bedc7f;
+	--checkbox-marker-color: #4d8061;
+	--checkbox-color-hover: #4d8061;
+	--checklist-done-decoration: #bedc7f;
+	--checklist-done-color: #4d8061;
+    --checkbox-radius: 2px;
 }
 
 .workspace-tab-header.is-active::before, .workspace-tab-header.is-active::after {

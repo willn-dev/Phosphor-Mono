@@ -16,7 +16,7 @@ body {
 
 	/* PRIMARY EDITOR*/
 	--background-primary: #1e3a29;
-	--text-normal: #eeffcc;
+	--text-normal: #eeffccd9;
 
 	--h1-color: #bedc7f;
 
@@ -35,6 +35,11 @@ body {
 	--tab-outline-width: 2px;
 
 
+	/*text formatting*/
+	
+
+
+
 
 	/*md formatting*/
 
@@ -46,6 +51,10 @@ body {
 	--checklist-done-decoration: #bedc7f;
 	--checklist-done-color: #4d8061;
     --checkbox-radius: 2px;
+
+
+	--hr-color: #eeffcc;
+	--hr-thickness: 3px;
 }
 
 .workspace-tab-header.is-active::before, .workspace-tab-header.is-active::after {

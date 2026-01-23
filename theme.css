@@ -14,7 +14,7 @@ body {
 
 
 
-	/* START MY EDIT*/
+	/* PRIMARY EDITOR*/
 	--background-primary: #1e3a29;
 	--text-normal: #eeffcc;
 
@@ -26,6 +26,16 @@ body {
 	--blockquote-border-color: #bedc7f;
 
 	--font-text-theme: 'Jersey 10', monospace;
+	letter-spacing: 0.2em;
+
+
+	/* TOP TABS AND MENU*/
+
+	--tab-radius: 
+
+
+
+
 
 }
 
@@ -50,4 +60,9 @@ svg * {
 
 .menu-separator {
 	margin: var(--size-2-1) calc(var(--size-2-1) * -1);
+}
+
+
+.HyperMD-header{
+	letter-spacing: .05em;
 }

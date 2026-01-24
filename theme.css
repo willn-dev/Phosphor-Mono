@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Jersey+10&display=swap');
 
+
 body {
 	--radius-s: 0px;
 	--radius-m: 0px;
@@ -16,23 +17,51 @@ body {
 
 	/* PRIMARY EDITOR*/
 	--background-primary: #1e3a29;
+	--background-secondary:  #102b1b;
 	--text-normal: #eeffccd9;
 
-	--h1-color: #bedc7f;
+	--h1-color: #b0ca77;
+	--h2-color: #98bc4a;
+	--h3-color: #86a73e;
 
 	--background-modifier-border: #000000;
 
-	--blockquote-background-color: #4d8061;
-	--blockquote-border-color: #bedc7f;
+	--blockquote-background-color: #2c4938;
+	--blockquote-border-color: #5ebe84bb;
+
 
 	--font-text-theme: 'Jersey 10', monospace;
 	letter-spacing: 0.2em;
 
 
-	/* TOP TABS AND MENU*/
+	/* TOP TABS AND side MENU*/
 
-	--tab-radius-active: 6px;
+	--tab-radius-active: 4px;
 	--tab-outline-width: 2px;
+	--inline-title-line-height: 2em;
+	--inline-title-size: 3em;
+	--inline-title-weight: 0.2;
+	--tab-outline-width: 2px;
+	--tab-text-color: #000000;
+
+	--divider-color-hover: #8ca457;
+
+
+	--ribbon-background:  #102b1b;
+	--ribbon-background-collapsed: #102b1b;
+
+
+	.workspace-tab-header-container{
+		background-color: #102b1b;
+	}
+
+	.workspace-ribbon.mod-left:before {
+		background-color: #102b1b;
+	}
+
+	
+
+	
 
 
 	/*text formatting*/
@@ -82,5 +111,5 @@ svg * {
 
 
 .HyperMD-header{
-	letter-spacing: .05em;
+	letter-spacing: .02em;
 }

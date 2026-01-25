@@ -22,7 +22,7 @@ body {
 
 	--h1-color: #b0ca77;
 	--h2-color: #98bc4a;
-	--h3-color: #86a73e;
+	--h3-color: #94a473;
 
 	--background-modifier-border: #000000;
 
@@ -32,6 +32,20 @@ body {
 
 	--font-text-theme: 'Jersey 10', monospace;
 	letter-spacing: 0.2em;
+
+
+	--code-background: #2c4938;
+	--code-normal: #acc5a5;
+	--code-comment:#4b7a5e;
+	--code-function:var(--checkbox-color);
+	--code-important:var(--divider-color-hover);
+	--code-keyword: #b8ee94;
+	--code-operator:var(--h3-color);
+	--code-property: var(--text-normal);
+	--code-punctuation: #a9e7ad;
+	--code-string: #258727;
+	--code-tag: #2c4111;
+	--code-value: #618b68;
 
 
 	/* TOP TABS AND side MENU*/

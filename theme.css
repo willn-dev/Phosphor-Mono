@@ -99,6 +99,10 @@ body {
 	--ribbon-background:  #102b1b;
 	--ribbon-background-collapsed: #102b1b;
 
+	--nav-item-color:#eeffcc !important;
+  	--nav-item-color-hover:var(--checkbox-border-color);
+	--text-error:var(--checkbox-border-color-hover) !important;
+	--text-error-hover:var(--code-normal) !important;
 
 	.workspace-tab-header-container{
 		background-color: #102b1b;
@@ -167,3 +171,9 @@ svg * {
 .HyperMD-header{
 	letter-spacing: .02em;
 }
+
+.nav-file-title,
+.nav-folder-title {
+  letter-spacing: -0.1em; 
+}
+

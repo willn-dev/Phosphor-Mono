@@ -108,7 +108,20 @@ body {
 		background-color: #102b1b;
 	}
 
+	.sidebar-toggle-button.mod-right{
+		background-color: #102b1b !important;
+	}
 
+	body.is-focused .sidebar-toggle-button, body.is-focused .workspace-tabs.mod-top {
+  	--tab-container-background: #102b1b !important; 
+}
+
+	.empty-state-action-tappable{
+		color: #eeffccd9 !important;
+	}
+
+	--text-accent: #eeffccd9 !important;
+	--text-accent-hover: var(--checkbox-color);
 
 	/*md formatting*/
 

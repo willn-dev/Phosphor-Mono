@@ -91,18 +91,52 @@ body {
 	--inline-title-size: 3em;
 	--inline-title-weight: 0.2;
 	--tab-outline-width: 2px;
-	--tab-text-color: #000000;
 
-	--divider-color-hover: #8ca457;
+	/*md formatting*/
+
+	
+    --checkbox-radius: 2px;
+	--hr-thickness: 3px;
+}
+
+
+.theme-dark{
+	--hr-color: #eeffcc;
+	--tag-color:var(--blockquote-border-color);
+	--tag-background:var(--background-secondary);
+
+
+	/*CHECKBOX*/
+
+	--checklist-done-decoration: #bedc7f;
+	--checklist-done-color: #4d8061;
+	--checkbox-marker-color: #4d8061;
+	--checkbox-color-hover: #4d8061;
+	--checkbox-border-color: #eeffcc;
+	--checkbox-border-color-hover: #bedc7f;
+	--checkbox-color: #bedc7f;
+
+
+	--text-accent: #eeffccd9;
+	--text-accent-hover: var(--checkbox-color);
 
 
 	--ribbon-background:  #102b1b;
 	--ribbon-background-collapsed: #102b1b;
 
-	--nav-item-color:#eeffcc !important;
+	--nav-item-color:#eeffcc;
   	--nav-item-color-hover:var(--checkbox-border-color);
-	--text-error:var(--checkbox-border-color-hover) !important;
-	--text-error-hover:var(--code-normal) !important;
+
+	--tab-text-color: #000000;
+	--divider-color-hover: #8ca457;
+
+	--text-error:var(--checkbox-border-color-hover);
+	--text-error-hover:var(--code-normal);
+
+
+	.empty-state-action-tappable{
+		color: #eeffccd9 !important;
+	}
 
 	.workspace-tab-header-container{
 		background-color: #102b1b;
@@ -118,31 +152,34 @@ body {
 
 	body.is-focused .sidebar-toggle-button, body.is-focused .workspace-tabs.mod-top {
   	--tab-container-background: #102b1b !important; 
-}
-
-	.empty-state-action-tappable{
-		color: #eeffccd9 !important;
 	}
 
-	--text-accent: #eeffccd9 !important;
-	--text-accent-hover: var(--checkbox-color);
+	.workspace-tab-header-container{
+		background-color: #102b1b;
+	}
 
-	/*md formatting*/
+	.workspace-ribbon.mod-left:before {
+		background-color: #102b1b;
+	}
 
-	--checkbox-border-color: #eeffcc;
-	--checkbox-border-color-hover: #bedc7f;
-	--checkbox-color: #bedc7f;
-	--checkbox-marker-color: #4d8061;
-	--checkbox-color-hover: #4d8061;
-	--checklist-done-decoration: #bedc7f;
-	--checklist-done-color: #4d8061;
-    --checkbox-radius: 2px;
-	--tag-color:var(--blockquote-border-color);
-	--tag-background:var(--background-secondary);
+	.sidebar-toggle-button.mod-right{
+		background-color: #102b1b !important;
+	}
 
-	--hr-color: #eeffcc;
-	--hr-thickness: 3px;
+	body.is-focused .sidebar-toggle-button, body.is-focused .workspace-tabs.mod-top {
+  	--tab-container-background: #102b1b !important; 
+	}
+
+
+
 }
+
+
+
+
+
+
+
 
 .workspace-tab-header.is-active::before, .workspace-tab-header.is-active::after {
 	display: none;
